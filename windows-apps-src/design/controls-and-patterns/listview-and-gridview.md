@@ -111,7 +111,7 @@ FruitsPanel.Children.Add(Fruits);
 
 ##### Corresponding XAML Code:
 ```xml
-<StackPanel Name="FruitsPanel"></StackPanel>
+<ListView Name="FruitsPanel"></ListView>
 ```
 Both of the above options will result in the same ListView, which is shown below:
 
@@ -150,7 +150,7 @@ ContactPanel.Children.Add(ContactsLV);
 
 ##### XAML Code:
 ```xml
-<StackPanel x:Name="ContactPanel"></StackPanel>
+<ListView x:Name="ContactPanel"></ListView>
 ```
 
 #### Option 2: Set ItemsSource in XAML
